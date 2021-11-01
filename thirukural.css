@@ -1,0 +1,76 @@
+
+.img-fluid{
+    width:15rem; 
+    background-repeat: no-repeat;
+    object-fit:cover;  
+}
+
+body{
+    background-color: blanchedalmond !important;   
+}
+
+ .input1{
+    display: block;
+    width: 20rem;
+    height:3rem;
+    border-radius: 2rem;
+    text-align: center;
+    font-family: 'Overpass', sans-serif;  
+    color: black;
+}
+
+.main-container
+{   margin-top:5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:2rem;
+  
+}
+
+.btn{
+    font-family: 'Overpass', sans-serif;
+    width:8rem;
+    border-radius: 3rem !important;
+    color:black !important;    
+}
+
+p{
+    font-family: 'Overpass', sans-serif;
+    color:black;
+    font-size:15px;
+    font-weight: bolder;
+    border-radius: 1rem;
+    text-align: center;
+    font-size: 2rem;
+    
+    
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+} 
+
+.validate{
+    display: none;
+    background-color: red;
+    color:black;
+   
+} 
+
+@media(max-width:318px)
+{
+    .input1{
+        width: 15rem;
+    }
+
+
+}
+
+
+
+
+
+
